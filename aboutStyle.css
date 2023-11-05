@@ -1,0 +1,78 @@
+*{
+    font-family: 'tajawal-regular', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --backg-NM : #F45B69 ;
+    --btn-NM : #8C8083;
+    --txt-NM : #F6E8EA;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backg-NM);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul{
+    margin-right: 6% ;
+}
+
+a{
+    color: var(--txt-NM);
+}
+
+.nlogo{
+    width: 6%;
+    height: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 6%;
+    color: var(--txt-NM);
+}
+
+span{
+    color: var(--btn-NM);
+}
+
+.intro{
+    width: 35%;
+    height: 40%;
+    text-align: center;
+    font-size: 30px;
+    color: var(--txt-NM);
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    margin-top: 5%;
+}
+
+img{
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 700px;
+    height: 500px;   
+    transform: scaleX(-1);
+}
+
+#aboutP{
+    font-size: 18px;
+    margin-top: 8%;
+}
